@@ -1,0 +1,7 @@
+    This program is a little joke. There is a start index.php file in folder /src/code/ .
+The method of form of this file is "POST", but  You can easy change it. Just replase
+a "POST" word to a "GET" in an expression :
+<form method="post" action="index.php" id="form" name="form">
+    So, select "boys"  in the table and select their actions. Then press a button
+"SOUTH PARK". You must know - one of them can sing not only move. A sign with kids stops
+all this "movies". :)
