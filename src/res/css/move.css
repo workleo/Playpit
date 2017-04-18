@@ -1,0 +1,76 @@
+.sign {
+    height: 128px;
+    width: 128px;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+td{
+    margin: 2px auto;
+    padding: 4px;
+    background: lightgray;
+    box-shadow: 0 0 4px 4px white inset;
+}
+.noact {
+}
+
+@keyframes timing-fromto {
+    from {
+        left: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        left: 3%;
+        transform: rotate(360deg);
+    }
+}
+
+.rolling {
+
+    position: relative;
+    cursor: pointer;
+    animation: timing-fromto 1.5s infinite alternate-reverse;
+
+}
+
+@keyframes timing-moveto {
+    from {
+        transform: scale(0.5, 0.5);
+    }
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.walking {
+
+    position: relative;
+    cursor: pointer;
+    animation: timing-moveto 3s infinite alternate-reverse;
+
+}
+
+@keyframes bounce {
+    from, to {
+        bottom: 0;
+    }
+    55% {
+        bottom: 50px;
+    }
+}
+
+.jumping {
+    position: relative;
+    cursor: pointer;
+    animation: bounce 0.5s infinite alternate-reverse;
+
+}
+
+
+
+
+
